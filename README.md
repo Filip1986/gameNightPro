@@ -80,3 +80,10 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+TO generate a new lib example:
+npx nx generate @nx/angular:library --name=auth --directory=libs
+
+npx nx generate @nx/angular:service --name=auth --project=auth
+npx nx generate @nx/angular:component --name=login --project=auth
+npx nx generate @nx/angular:guard --name=auth --project=auth
