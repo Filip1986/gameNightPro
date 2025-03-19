@@ -1,0 +1,9 @@
+{
+  "name": "game-night-pro-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/game-night-pro-e2e/src",
+  "implicitDependencies": ["game-night-pro"],
+  "// targets": "to see all targets run: nx show project game-night-pro-e2e --web",
+  "targets": {}
+}
